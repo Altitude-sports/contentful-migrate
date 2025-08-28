@@ -5,9 +5,8 @@
 [![Build Status](https://github.com/deluan/contentful-migrate/workflows/CI/badge.svg)](https://github.com/deluan/contentful-migrate/actions)
 [![Downloads](https://img.shields.io/npm/dm/contentful-migrate)](https://www.npmjs.com/package/contentful-migrate)
 
-# NOTICE: As I haven't worked with Contentful for a few years now, I'm not able to keep maintaning this tool. 
-# For this reason, I decided to archive this repository. 
-# If you want to evolve and maintain it, please let me know and I can un-archive it and add you as a maintainer.
+# NOTICE: This is a fork from the original contentful-migrate package
+# Our goal is to update the package based on our needs
 
 Manage your Contentful schema by creating incremental scripted changes. This project is based on the ideas exposed
 in [Contentful's CMS as Code article](https://www.contentful.com/r/knowledgebase/cms-as-code/)
@@ -69,7 +68,7 @@ For more information on schema migrations technique and practice, see:
 ## Installation
 
 ```sh
-npm install -g contentful-migrate
+pnpm install -g contentful-migrate
 ```
 
 ## Usage

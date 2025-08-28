@@ -16,7 +16,7 @@ RUN apt-get update \
   && apt-get -y install git iproute2 procps direnv vim less \
   #
   # Install eslint globally
-  && npm install -g eslint \
+  && pnpm install -g eslint \
   #
   # Clean up
   && apt-get autoremove -y \
