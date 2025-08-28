@@ -3,6 +3,7 @@
 *.swp
 .vscode
 .DS_Store
+.zshrc
 .nvmrc
 .envrc
 node_modules
