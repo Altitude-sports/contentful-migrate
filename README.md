@@ -68,7 +68,7 @@ For more information on schema migrations technique and practice, see:
 ## Installation
 
 ```sh
-pnpm install -g contentful-migrate
+npm install -g contentful-migrate
 ```
 
 ## Usage
